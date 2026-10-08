@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Event Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+        }
+
+        h2 {
+            color: #444;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #555;
+        }
+
+        .event {
+            background: #eee;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Event Registration</h1>
+
+    <div class="event">
+        <h2>Event: Tech Innovation Fest</h2>
+
+        <p>
+            Join us for a technology event featuring innovative ideas,
+            software projects and emerging technologies.
+        </p>
+    </div>
+
+    <form>
+
+        <label>Student Name</label>
+        <input type="text" name="studentName" required>
+
+        <label>Register Number</label>
+        <input type="text" name="registerNumber" required>
+
+        <label>Department</label>
+        <input type="text" name="department" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Event Date</label>
+        <input type="date" name="eventDate" required>
+
+        <button type="submit">Register for Event</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
